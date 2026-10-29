@@ -1,0 +1,27 @@
+/f/AI Projects/CertificateGen
+output_certificates/
+# --- secrets: never commit ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+*credential*.json
+*serviceAccount*.json
+id_rsa*
+id_ed25519*
+*.sqlite
+*.db
+*.log
+# --- os / editor ---
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+~$*
+*.swp
+.idea/
+.vscode/
